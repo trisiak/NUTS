@@ -342,6 +342,13 @@ monotanker_wagon_switch;
 
 //CARGO SWITCH
 switch (FEAT_TRAINS, SELF, monouniversal_wagon_switch, cargo_type_in_veh) {
+	SALT: spritegroup_monohopper_sugar;
+	SASH: spritegroup_monohopper_stone;
+	ACID: spritegroup_monotanker_chemicals;
+	LYE_: spritegroup_monotanker_milk;
+	CHLO: spritegroup_monotanker_beer;
+	SULP: spritegroup_monohopper_toffee;
+
 	URAN: spritegroup_monohopper_uranium;
 	YETI: spritegroup_monoflatbed_YETI;
 	YETY: spritegroup_monoflatbed_YETY;
